@@ -159,6 +159,7 @@ time {
 }
 .service a {
     display:block;
+    
 }
 .service a:hover{
     opacity:0.5;
@@ -174,4 +175,28 @@ time {
     size:14px;
     text-align:center;
     font-family:Helvetica;
+}
+.service-list {
+    margin-top:20px;
+    display:flex;
+    justify-content:center;
+}
+.service-item {
+    background-color:rgba(232,232,232,1);
+    width:380px;
+    height:380px;
+    list-style:none;
+    list-style-position:outside;
+    margin-bottom:40px;
+}
+.service-item+.service-item {
+    margin-left:30px;
+}
+.service-item a {
+    display:block;
+    width:100%;
+    height:100%;
+}
+.service-item a:hover {
+    opacity:0.7;
 }
